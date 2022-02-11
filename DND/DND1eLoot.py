@@ -161,7 +161,7 @@ match result:
         print(result)
     
     case 'Armor':
-        options = ['Test']
+        options = ['DoubleTest']
         result = random.choices(options, weights=[])
         result = result[0]
         print(result)
