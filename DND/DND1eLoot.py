@@ -183,7 +183,13 @@ match result:
         print(result)
     
     case 'Misc. Weapons':
-        options = []
+        options = ['Arrow +1, 2-24 in number', 'Arrow +2, 2-16 in number', 'Arrow +3, 2-12 in number', 'Arrow of Slaying',
+        'Axe +1', 'Axe +2', 'Axe +2, Throwing', 'Axe +3', 'Battle Axe +1', 'Bolt +2, 2-20 in number', 'Bow +1', 
+        'Crossbow of Accuracy, +3', 'Crossbow of Distance', 'Crossbow of Speed', 'Dagger +1, +2 vs. creatures smaller than man-sized',
+        'Dagger +2, +3 vs. creatures larger than man-sized', 'Dagger of Venom', 'Flail +1', 'Hammer +2', 'Hammer +3',
+        'Hammer +3, Dwarven Thrower', 'Hammer of Thunderbolts', 'Javelin +2', 'Mace +1', 'Mace +2', 'Mace of Disruption',
+        'Mace +4', 'Military Pick +1', 'Morning Star +1', 'Scimitar +2', 'Sling of Seeking +2', 'Spear +1', 'Spear +2',
+        'Spear +3', 'Spear, Cursed Backbiter', 'Trident (Military Fork) +3']
         result = random.choices(options, weights=[])
         result = result[0]
         print(result)
