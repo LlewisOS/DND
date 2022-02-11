@@ -61,7 +61,7 @@ match result:
         #result = random.choices(options, weights=[])
         #result = result[0]
         #print(result)
-        print('Scrolls are to complicated to generate in this script. Do it yourself')
+        print('Use DND1eScrolls.py to generate scrolls')
     
     case 'Rings':
         options = ['Contrariness', 'Delusion', 'Djinni Summoning', 'Elemental Command',
@@ -96,7 +96,7 @@ match result:
         'Boots of Speed', 'Boots of Striding and Springing', 'Bowl Commanding Water Elementals',
         'Bowl of Watery Death', 'Bracers of Defense', 'Bracers of Defenselessness', 'Brazier Commanding Fire Elementals',
         'Brazier of Sleep Smoke', 'Brooch of Shielding', 'Broom of Animated Attack', 'Broom of Flying', "Bucknard'd Everfull Purse"]
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[2,2,1,2,4,2,3,1,3,1,5,1,2,2,1,1,1,1,1,6,5,4,4,3,1,20,2,3,1,7,1,5,2])
         result = result[0]
         print(result)
     
@@ -108,7 +108,7 @@ match result:
         'Deck of Many Things', 'Drums of Deafening', 'Drums of Panic', 'Dust of Appearance', 'Dust of Disappearing',
         'Dust of Sneezing and Chocking', 'Efreeti Bottle', 'Eversmoking Bottle', 'Eyes of Charming', 'Eyes of the Eagle'
         'Eyes of Minute Seeing', 'Eyes of Petrification']
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[6,2,2,1,2,1,4,9,3,2,23,5,1,2,2,2,2,3,4,1,2,6,6,1,1,1,1,2,2,1])
         result = result[0]
         print(result)
     
@@ -121,7 +121,7 @@ match result:
         'Horn of the Tritons', 'Horn of Valhalla', 'Horseshoes of Speed', 'Horseshoes of the Zephyr', 'Incense of Meditation',
         'Incense of Obsession', 'Ioun Stones', 'Instrument of the Bards', ' Iron Flask', 'Javelin of Lightning',
         'Javelin of Piercing', 'Jewel of Attacks', 'Jewel of Flawlessness', "Keoghtom's Ointment"]        
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[15,1,2,2,2,3,1,1,1,1,1,5,2,2,1,5,1,2,1,4,7,3,2,5,1,1,6,2,5,5,1,1,8])
         result = result[0]
         print(result)
     
