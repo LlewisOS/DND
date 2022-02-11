@@ -132,13 +132,12 @@ match result:
         'Manual of Puissant Skill at Arms', 'Manual of Quickness of Action', 'Manual of Stealthy Pilfering',
         'Mattock of the Titans', 'Maul of the Titands', 'Medallion of ESP', 'Medallion of Thought Projection',
         'Mirror of Life Trapping', 'Mirror of Mental Prowess', 'Mirror of Opposition', 'Necklace of Adaptation', 
-        'Necklace of Adaptation', 'Necklace of Missiles', 'Necklace of Prayer Beads', 'Necklace of Strangulation', 
+        'Necklace of Missiles', 'Necklace of Prayer Beads', 'Necklace of Strangulation', 
         'Net of Entrapment', 'Net of Snaring', "Nolzur's Marvelous Pigments", 'Pearl of Power', 'Pearl of Wisdom',
         'Periapt of Foul Rotting', 'Peripant of Health', 'Peripant of Proof Against Healing', 'Peripant of Wound Closure',
         'Phylactery of Faithfulness', 'Phylactery of Long Years', 'Phylactery of Monstrous Attention', 'Pipes of the Sewers',
         'Portable Hole', "Quaal's Feather Token"]
-        result = random.choices(options, weights=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 3, 4, 6, 2, 3, 4, 2, 2, 2, 2, 3, 7, 4, 6, 4, 2, 8, 1, 15])
-        #This is likely a mistake with the book. This is the only Table that has 99 possible options instead of 100 as far as I can tell
+        result = random.choices(options, weights=[1,1,1,1,1,1,1,1,1,1,1,1,3,2,1,1,1,3,4,6,2,3,4,2,2,2,2,3,7,4,6,4,2,8,1,15])
         result = result[0]
         print(result)
     
@@ -152,7 +151,9 @@ match result:
         'Tome of Clear Thought', 'Tome of Leadership and Influence', 'Tome of Understanding', 'Trident of Fish Command',
         'Trident of Submission', 'Trident of Warning', 'Trident of Yearning', 'Vacuous Grimoire', 'Well of Many Worlds',
         'Wings of Flying']
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[7,1,1,1,8,6,2,4,1,1,1,1,3,2,6,1,1,2,2,2,3,1,2,6,1,1,1,7,2,5,2,2,3,10])
+        #This is the only Table that has 99 possible options instead of 100 as far as I can tell. Likely Programmer error
+        #but I can't find it
         result = result[0]
         print(result)
     
