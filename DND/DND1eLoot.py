@@ -102,11 +102,12 @@ match result:
     
     case 'Misc.2':
         options = ['Candle of Invocation', 'Carpet of Flying', 'Censer of Controlling Air Elementals',
-        'Chime of Opening', 'Chime of Hunger', 'Cloak of Displacement', 'Cloak of Elvenkind', 'Cloak of Manta Ray',
+        'Censer of Summoning Hostile Air Elementals','Chime of Opening', 
+        'Chime of Hunger', 'Cloak of Displacement', 'Cloak of Elvenkind', 'Cloak of Manta Ray',
         'Cloak of Poisonousness', 'Cloak of Protection', 'Crystal Ball', 'Crystal Hypnosis Ball', 'Cube of Force',
         'Cube of Frost Resistance', 'Cubic Gate', "Daern's Instant Fortress", 'Decanter of Endless Water', 
-        'Deck of Many Things', 'Drums of Deafening', 'Drums of Panic', 'Dust of Appearance', 'Dust of Disappearing',
-        'Dust of Sneezing and Chocking', 'Efreeti Bottle', 'Eversmoking Bottle', 'Eyes of Charming', 'Eyes of the Eagle'
+        'Deck of Many Things', 'Drums of Deafening', 'Drums of Panic', 'Dust of Appearance', 'Dust of Disappearance',
+        'Dust of Sneezing and Chocking', 'Efreeti Bottle', 'Eversmoking Bottle', 'Eyes of Charming', 'Eyes of the Eagle',
         'Eyes of Minute Seeing', 'Eyes of Petrification']
         result = random.choices(options, weights=[6,2,2,1,2,1,4,9,3,2,23,5,1,2,2,2,2,3,4,1,2,6,6,1,1,1,1,2,2,1])
         result = result[0]
@@ -136,7 +137,8 @@ match result:
         'Periapt of Foul Rotting', 'Peripant of Health', 'Peripant of Proof Against Healing', 'Peripant of Wound Closure',
         'Phylactery of Faithfulness', 'Phylactery of Long Years', 'Phylactery of Monstrous Attention', 'Pipes of the Sewers',
         'Portable Hole', "Quaal's Feather Token"]
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 3, 4, 6, 2, 3, 4, 2, 2, 2, 2, 3, 7, 4, 6, 4, 2, 8, 1, 15])
+        #This is likely a mistake with the book. This is the only Table that has 99 possible options instead of 100 as far as I can tell
         result = result[0]
         print(result)
     
