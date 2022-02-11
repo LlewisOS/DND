@@ -161,7 +161,11 @@ match result:
         print(result)
     
     case 'Armor':
-        options = ['Test']
+        options = ['Chain Mail +1', 'Chain Mail +2', 'Chain Mail +3', 'Leather Armor +1', 'Plate Mail +1',
+        'Plate Mail +2', 'Plate Mail +3', 'Plate Mail +4', 'Plate Mail +5', 'Plate Mail of Etherealness', 
+        'Plate Mail of Vulnerability', 'Ring Mail +1', 'Scale Mail +1', 'Scale Mail +2', 'Splint Mail +1',
+        'Splint Mail +2', 'Splint Mail +3', 'Splint Mail +4', 'Studded Armor +1', 'Shield +1', 'Shield +2',
+        'Shield +3', 'Shield +4', 'Shield +5', 'Shield, large, +1, +4 vs. missiles', 'Shield -1, missile attractor']
         result = random.choices(options, weights=[])
         result = result[0]
         print(result)
