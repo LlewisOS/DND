@@ -103,6 +103,6 @@ else:
         'Magic item nearby is "de-magicked"',
         'randomly rolled spell affects reader at 12th level of magic use (Hit the reader with a random 12th level spell)']
 
-    result = random.choices(options, weights=[25,5,10,10,15,15,9,1])
+    result = random.choices(options, weights=[25,5,10,10,25,15,9,1])
     result = result[0]
     print(result)
