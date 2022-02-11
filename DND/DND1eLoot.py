@@ -171,7 +171,13 @@ match result:
         print(result)
     
     case 'Swords':
-        options = []
+        options = ['Sword +1', 'Sword +1, +2 vs. magic-using & enchanted creatures', 'Sword +1, +3 vs. lycanthropes & shape changers',
+        'Sword +1, +3 vs. regenerating creatures', 'Sword +1, +4 vs. reptiles', 
+        'Sword +1, Flame Tongue:\n  +2 vs. regenerating creatures\n  +3 vs. cold-using, inflammable, or avian creatures\n  +4 vs. undead', #christ almighty
+        'Sword +1, Luck Blade', 'Sword +2', 'Sword +2, Giant Slayer', 'Sword +2, Dragon Slayer', 'Sword +2, Nine Lives Stealer', 
+        'Sword +3', 'Sword +3, Frost Brand:\n  +6 vs. fire using/dwelling creatures', 'Sword +4', 'Sword +4, Defender',
+        'Sword +5', 'Sword +5, Defender', 'Sword +5, Holy Avenger', 'Sword of Dancing', 'Sword of Wounding',
+        'Sword of Sharpness', 'Sword, Vorpal Weapon', 'Sword +1, Cursed', 'Sword -2, Cursed', 'Sword, Cursed Berserking' ]
         result = random.choices(options, weights=[])
         result = result[0]
         print(result)
