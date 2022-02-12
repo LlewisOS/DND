@@ -143,17 +143,15 @@ match result:
     
     case 'Misc.5':
         options = ['Robe of the Archmagi', 'Robe of the Blending', 'Robe of Eyes', 'Robe of Powerlessness',
-        'Robe of Scintillating Colours', 'Robe of Useful Items', 'Robe of Climbing', 'Rope of Constriction',
-        'Robe of Entanglement', 'Rug of Smothering', 'Rug of Welcome', 'Saw of Mighty Cutting', 'Scarab of Death',
-        'Scarab of Insanity', 'Scarab of Protection', 'Spade of Colossal Excavation', 'Sphere of Annihilation',
-        'Stone of Controlling Earth Elementals', 'Stone of Good Luck (Luckstone)', 'Stone of Weight (Loadstone)',
-        'Talisman of Pure Good', 'Talisman of the Sphere', 'Talisman of Ultimate Evil', 'Talisman of Zagy',
-        'Tome of Clear Thought', 'Tome of Leadership and Influence', 'Tome of Understanding', 'Trident of Fish Command',
-        'Trident of Submission', 'Trident of Warning', 'Trident of Yearning', 'Vacuous Grimoire', 'Well of Many Worlds',
-        'Wings of Flying']
-        result = random.choices(options, weights=[7,1,1,1,8,6,2,4,1,1,1,1,3,2,6,1,1,2,2,2,3,1,2,6,1,1,1,7,2,5,2,2,3,10])
-        #This is the only Table that has 99 possible options instead of 100 as far as I can tell. Likely Programmer error
-        #but I can't find it
+        'Robe of Scintillating Colours', 'Robe of Useful Items', 'Rope of Climbing', 'Rope of Constriction',
+        'Rope of Entanglement', 'Rug of Smothering', 'Rug of Welcome', 'Saw of Mighty Cutting', 'Scarab of Death',
+        'Scarab of Enraging Enemies', 'Scarab of Insanity', 'Scarab of Protection', 'Spade of Colossal Excavation', 
+        'Sphere of Annihilation', 'Stone of Controlling Earth Elementals', 'Stone of Good Luck (Luckstone)', 
+        'Stone of Weight (Loadstone)', 'Talisman of Pure Good', 'Talisman of the Sphere', 'Talisman of Ultimate Evil',
+        'Talisman of Zagy', 'Tome of Clear Thought', 'Tome of Leadership and Influence', 
+        'Tome of Understanding', 'Trident of Fish Command', 'Trident of Submission', 'Trident of Warning', 
+        'Trident of Yearning', 'Vacuous Grimoire', 'Well of Many Worlds','Wings of Flying']
+        result = random.choices(options, weights=[1,7,1,1,1,8,6,2,4,1,1,1,1,3,2,6,1,1,2,2,2,3,1,2,6,1,1,1,7,2,5,2,2,3,10])
         result = result[0]
         print(result)
     
@@ -169,7 +167,7 @@ match result:
         'Plate Mail of Vulnerability', 'Ring Mail +1', 'Scale Mail +1', 'Scale Mail +2', 'Splint Mail +1',
         'Splint Mail +2', 'Splint Mail +3', 'Splint Mail +4', 'Studded Armor +1', 'Shield +1', 'Shield +2',
         'Shield +3', 'Shield +4', 'Shield +5', 'Shield, large, +1, +4 vs. missiles', 'Shield -1, missile attractor']
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[5,4,2,8,7,6,3,2,1,1,5,6,5,4,4,3,2,1,6,9,5,4,2,1,1,3])
         result = result[0]
         print(result)
     
@@ -179,9 +177,9 @@ match result:
         'Sword +1, Flame Tongue:\n  +2 vs. regenerating creatures\n  +3 vs. cold-using, inflammable, or avian creatures\n  +4 vs. undead', #christ almighty
         'Sword +1, Luck Blade', 'Sword +2', 'Sword +2, Giant Slayer', 'Sword +2, Dragon Slayer', 'Sword +2, Nine Lives Stealer', 
         'Sword +3', 'Sword +3, Frost Brand:\n  +6 vs. fire using/dwelling creatures', 'Sword +4', 'Sword +4, Defender',
-        'Sword +5', 'Sword +5, Defender', 'Sword +5, Holy Avenger', 'Sword of Dancing', 'Sword of Wounding',
+        'Sword +5', 'Sword +5, Defender', 'Sword +5, Holy Avenger', 'Sword of Dancing', 'Sword of Wounding', 'Sword of Life Stealing',
         'Sword of Sharpness', 'Sword, Vorpal Weapon', 'Sword +1, Cursed', 'Sword -2, Cursed', 'Sword, Cursed Berserking' ]
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[25,5,5,5,5,4,1,8,4,4,1,4,3,2,1,1,1,1,1,1,1,1,1,5,5,5])
         result = result[0]
         print(result)
     
@@ -193,7 +191,7 @@ match result:
         'Hammer +3, Dwarven Thrower', 'Hammer of Thunderbolts', 'Javelin +2', 'Mace +1', 'Mace +2', 'Mace of Disruption',
         'Mace +4', 'Military Pick +1', 'Morning Star +1', 'Scimitar +2', 'Sling of Seeking +2', 'Spear +1', 'Spear +2',
         'Spear +3', 'Spear, Cursed Backbiter', 'Trident (Military Fork) +3']
-        result = random.choices(options, weights=[])
+        result = random.choices(options, weights=[8,4,2,1,5,2,1,1,3,5,3,1,1,1,8,4,1,5,4,2,1,1,3,5,3,1,1,3,3,5,1,5,2,1,2,1])
         result = result[0]
         print(result)
 
